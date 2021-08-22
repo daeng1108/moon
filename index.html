@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todak Moon!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="index1.html" class="logo">MOON PAGE</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hello Guys,<br>I'am <span>Todak Moon</span></h2>
+            <p><b style="color: blueviolet;"><span></span>Zikry Bin Shamsuddin atau 'MOON'</b></span> is a Mobile
+                Legends; Bang Bang player who currently plays for the Todak team and plays as Support / Tank</p>
+            <a href="https://web.facebook.com/Moonityy/videos">Join Streaming</a>
+        </div>
+        <ul class="sci">
+            <li><a href="https://web.facebook.com/Moonityy"><img
+                        src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCWG1_BEWtcZZQ391nS_WGTA"><img
+                        src="https://img.icons8.com/ios-glyphs/50/000000/youtube.png"></a></li>
+            <li><a href="https://www.instagram.com/tdk.moon/"><img
+                        src="https://img.icons8.com/ios-filled/50/000000/instagram--v1.png"></a></li>
+        </ul>
+    </section>
+    <div id="navigator">
+        <ul>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="manager.html">Contact</a></li>
+            <li><a href="https://todak.com/store/">Todak Store</a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        function toggle() {
+            var sec = document.getElementById('sec');
+            var nav = document.getElementById('navigator');
+            sec.classList.toggle('active');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
